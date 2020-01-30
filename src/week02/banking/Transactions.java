@@ -21,7 +21,7 @@ public class Transactions {
      */
     public static void main(String[] args) {
         final Account acct1 = new Account("Grace Hopper", 72354, 102.56);
-        final Account acct2 = new Account("Edsger Dijkstra", 69713, 40.00);
+        final Account acct2 = new Account("Edsgar Dijkstra", 69713, 40.00);
         final Account acct3 = new Account("James Gosling", 93757, 759.32);
 
         final double hopperDeposit = 25.85;

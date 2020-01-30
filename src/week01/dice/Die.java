@@ -66,8 +66,16 @@ public class Die {
         return "Die{" + "faceValue=" + faceValue + "}";
     }
 
+    /**
+     * Demonstrates the use of this class.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Die testDie = new Die();
+        int roll = testDie.roll();
+        int faceValue = testDie.getFaceValue();
+        System.out.println(roll == faceValue);
         System.out.println(testDie.toString());
     }
 }
