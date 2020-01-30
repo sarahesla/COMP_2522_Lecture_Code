@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 import java.text.DecimalFormat;
 
@@ -28,8 +28,8 @@ public class SodaSurvey {
         final int sodas = scores.length;
         final int people = scores[0].length;
 
-        int[] sodaSum = new int[sodas];
-        int[] personSum = new int[people];
+        final int[] sodaSum = new int[sodas];
+        final int[] personSum = new int[people];
 
         for (int soda = 0; soda < sodas; soda++) {
             for (int person = 0; person < people; person++) {
@@ -38,7 +38,7 @@ public class SodaSurvey {
             }
         }
 
-        DecimalFormat fmt = new DecimalFormat("0.#");
+        final DecimalFormat fmt = new DecimalFormat("0.#");
         System.out.println("Averages:\n");
 
         for (int soda = 0; soda < sodas; soda++) {

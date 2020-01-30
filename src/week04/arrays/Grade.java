@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 /**
  * Represents a school grade.

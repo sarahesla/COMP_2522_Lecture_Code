@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 /**
  * Demonstrates the use of an array of objects.

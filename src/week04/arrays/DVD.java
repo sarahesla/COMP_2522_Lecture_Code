@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 import java.text.NumberFormat;
 
@@ -11,11 +11,11 @@ import java.text.NumberFormat;
  */
 public class DVD {
 
-    private String title;
-    private String director;
-    private int year;
-    private double cost;
-    private boolean bluRay;
+    private final String title;
+    private final String director;
+    private final int year;
+    private final double cost;
+    private final boolean bluRay;
 
     /**
      * Constructs a new DVD with the specified information.

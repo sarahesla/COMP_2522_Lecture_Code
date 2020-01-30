@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.enums;
+package week04.enums;
 
 /**
  * Demonstrates the use of a full enumerated type.

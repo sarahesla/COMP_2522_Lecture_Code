@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 /**
  * Matrix.
@@ -8,7 +8,7 @@ package ca.bcit.comp2522.code.arrays;
  */
 public class Matrix {
 
-    private int[][] matrix;
+    private final int[][] matrix;
 
     /**
      * Constructs an object of type Matrix.

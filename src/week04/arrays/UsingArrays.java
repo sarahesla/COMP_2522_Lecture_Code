@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 import java.util.Arrays;
 
@@ -11,9 +11,10 @@ import java.util.Arrays;
  */
 public class UsingArrays {
 
-    private int intArray[] = {1, 2, 3, 4, 5, 6};
-    private double doubleArray[] = {8.4, 9.3, 0.2, 7.9, 3.4};
-    private int filledIntArray[], intArrayCopy[];
+    private final int[] intArray = {1, 2, 3, 4, 5, 6};
+    private final double[] doubleArray = {8.4, 9.3, 0.2, 7.9, 3.4};
+    private final int[] filledIntArray;
+    private final int[] intArrayCopy;
 
     /**
      * Constructs an object of type UsingArrays.
@@ -35,7 +36,7 @@ public class UsingArrays {
      */
     public static void main(String args[]) {
 
-        UsingArrays usingArrays = new UsingArrays();
+        final UsingArrays usingArrays = new UsingArrays();
         usingArrays.printArrays();
         usingArrays.printEquality();
 

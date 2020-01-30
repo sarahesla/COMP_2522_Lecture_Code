@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 /**
  * Demonstrates basic array declaration and use.
@@ -22,7 +22,7 @@ public class BasicArray {
      */
     public static void main(String[] args) {
 
-        int[] list = new int[LIMIT];
+        final int[] list = new int[LIMIT];
 
         // Initializes the array values
         for (int index = 0; index < LIMIT; index++) {

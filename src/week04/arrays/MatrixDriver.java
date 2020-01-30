@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 /**
  * MatrixDriver.
@@ -14,21 +14,21 @@ public class MatrixDriver {
      * @param args not used.
      */
     public static void main(String[] args) {
-        Matrix square = new Matrix(2, 2);
+        final Matrix square = new Matrix(2, 2);
         square.setValue(2, 0, 0);
         square.setValue(3, 0, 1);
         square.setValue(4, 1, 0);
         square.setValue(5, 1, 1);
         System.out.println(square);
 
-        Matrix anotherSquare = new Matrix(2, 2);
+        final Matrix anotherSquare = new Matrix(2, 2);
         anotherSquare.setValue(1, 0, 0);
         anotherSquare.setValue(2, 0, 1);
         anotherSquare.setValue(3, 1, 0);
         anotherSquare.setValue(4, 1, 1);
         System.out.println(anotherSquare);
 
-        Matrix rectangle = new Matrix(2, 3);
+        final Matrix rectangle = new Matrix(2, 3);
         rectangle.setValue(1, 0, 0);
         rectangle.setValue(2, 0, 1);
         rectangle.setValue(3, 0, 2);
@@ -37,11 +37,11 @@ public class MatrixDriver {
         rectangle.setValue(6, 1, 2);
         System.out.println(rectangle);
 
-        Matrix sumMatrix = square.add(anotherSquare);
+        final Matrix sumMatrix = square.add(anotherSquare);
         System.out.println(sumMatrix);
 
         try {
-            Matrix wontWorkMatrix = square.add(rectangle);
+            final Matrix wontWorkMatrix = square.add(rectangle);
         } catch (IllegalArgumentException exception) {
             System.out.println(exception.getMessage());
         }

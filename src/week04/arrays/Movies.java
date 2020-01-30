@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 /**
  * Demonstrates the use of an array of objects.
@@ -16,7 +16,7 @@ public class Movies {
      * @param args command line arguments (unused)
      */
     public static void main(String[] args) {
-        DVDCollection movies = new DVDCollection();
+        final DVDCollection movies = new DVDCollection();
 
         movies.addDVD("The Godfather", "Francis Ford Coppala", 1972, 24.95, true);
         movies.addDVD("District 9", "Neill Blomkamp", 2009, 19.95, false);

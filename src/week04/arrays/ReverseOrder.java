@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 import java.util.Scanner;
 
@@ -23,10 +23,10 @@ public class ReverseOrder {
      */
     public static void main(String[] args) {
 
-        double[] numbers = new double[ARRAY_SIZE];
+        final double[] numbers = new double[ARRAY_SIZE];
         System.out.println("The size of the array: " + numbers.length);
 
-        Scanner scan = new Scanner(System.in);
+        final Scanner scan = new Scanner(System.in);
         for (int index = 0; index < numbers.length; index++) {
             System.out.print("Enter number " + (index + 1) + ": ");
             numbers[index] = scan.nextDouble();

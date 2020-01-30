@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 import java.text.NumberFormat;
 
@@ -10,6 +10,7 @@ import java.text.NumberFormat;
  * @version 2019
  */
 public class DVDCollection {
+
     /**
      * Default collection size.
      */
@@ -71,7 +72,7 @@ public class DVDCollection {
      * @return toString description
      */
     public String toString() {
-        NumberFormat fmt = NumberFormat.getCurrencyInstance();
+        final NumberFormat fmt = NumberFormat.getCurrencyInstance();
 
         String report = "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
         report += "My DVD Collection\n\n";
@@ -93,7 +94,7 @@ public class DVDCollection {
      * larger array and copying the existing collection into it.
      */
     private void increaseSize() {
-        DVD[] temp = new DVD[collection.length * 2];
+        final DVD[] temp = new DVD[collection.length * 2];
 
         for (int dvd = 0; dvd < collection.length; dvd++) {
             temp[dvd] = collection[dvd];

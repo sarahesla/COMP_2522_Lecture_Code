@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class ReverseArray {
      * @param indexTwo second location to swap
      */
     public static void swap(int[] array, int indexOne, int indexTwo) {
-        int temp = array[indexOne];
+        final int temp = array[indexOne];
         array[indexOne] = array[indexTwo];
         array[indexTwo] = temp;
     }
@@ -31,9 +31,9 @@ public class ReverseArray {
     public static void main(String[] args) {
 
         System.out.println("Enter the size of the array you wish to create:");
-        Scanner scan = new Scanner(System.in);
-        int size = scan.nextInt();
-        int[] array = new int[size];
+        final Scanner scan = new Scanner(System.in);
+        final int size = scan.nextInt();
+        final int[] array = new int[size];
 
         for (int i = 0; i < size; ++i) {
             System.out.print("Enter element number " + (1 + i) + ":");

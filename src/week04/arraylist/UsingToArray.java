@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arraylist;
+package week04.arraylist;
 
 import java.util.Arrays;
 import java.util.LinkedList;

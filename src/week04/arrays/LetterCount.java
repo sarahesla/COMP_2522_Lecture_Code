@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class LetterCount {
     /**
      * Number of characters in English alphabet.
      */
-    public static final int NUMCHARS = 26;
+    public static final int NUMBER_OF_CHARACTERS = 26;
 
     /**
      * Reads a sentence from the user and counts the number of uppercase and
@@ -23,10 +23,10 @@ public class LetterCount {
      */
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        final Scanner scan = new Scanner(System.in);
 
-        int[] upper = new int[NUMCHARS];
-        int[] lower = new int[NUMCHARS];
+        int[] upper = new int[NUMBER_OF_CHARACTERS];
+        int[] lower = new int[NUMBER_OF_CHARACTERS];
 
         char current; // the current character being processed
         int other = 0; // counter for non-alphabetics

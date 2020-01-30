@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.arrays;
+package week04.arrays;
 
 /**
  * Demonstrates the use of a two-dimensional array.
@@ -20,7 +20,7 @@ public class TwoDArray {
      * @param args command line arguments (unused)
      */
     public static void main(String[] args) {
-        int[][] table = new int[ROWS][COLUMNS];
+        final int[][] table = new int[ROWS][COLUMNS];
 
         // Populates the table with values
         for (int row = 0; row < table.length; row++) {

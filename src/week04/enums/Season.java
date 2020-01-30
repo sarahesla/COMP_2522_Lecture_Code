@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.enums;
+package week04.enums;
 
 /**
  * Enumerates the values for Season.  Check this out.
@@ -16,24 +16,10 @@ package ca.bcit.comp2522.code.enums;
  */
 public enum Season {
 
-    /**
-     * First season, winter.
-     */
+
     winter("December through February"),
-
-    /**
-     * Second season, spring.
-     */
     spring("March through May"),
-
-    /**
-     * Third season, summer.
-     */
     summer("June through August"),
-
-    /**
-     * Fourth season, fall (not autumn).
-     */
     fall("September through November");
 
     /**
