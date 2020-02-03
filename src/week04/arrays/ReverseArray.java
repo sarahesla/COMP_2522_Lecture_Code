@@ -6,7 +6,7 @@ import java.util.Scanner;
  * ReverseArray uses a swap method.
  *
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class ReverseArray {
 

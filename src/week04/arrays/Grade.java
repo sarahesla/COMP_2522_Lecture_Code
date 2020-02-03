@@ -5,11 +5,11 @@ package week04.arrays;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class Grade {
 
-    private String name;
+    private final String name;
     private int lowerBound;
 
     /**
@@ -31,15 +31,6 @@ public class Grade {
      */
     public String getName() {
         return name;
-    }
-
-    /**
-     * Sets (mutates) the grade name to be the specified value.
-     *
-     * @param grade a String
-     */
-    public void setName(String grade) {
-        name = grade;
     }
 
     /**

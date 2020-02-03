@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class LetterCount {
     /**
@@ -25,8 +25,8 @@ public class LetterCount {
 
         final Scanner scan = new Scanner(System.in);
 
-        int[] upper = new int[NUMBER_OF_CHARACTERS];
-        int[] lower = new int[NUMBER_OF_CHARACTERS];
+        final int[] upper = new int[NUMBER_OF_CHARACTERS];
+        final int[] lower = new int[NUMBER_OF_CHARACTERS];
 
         char current; // the current character being processed
         int other = 0; // counter for non-alphabetics

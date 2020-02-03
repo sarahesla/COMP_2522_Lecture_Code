@@ -4,7 +4,7 @@ package week04.arrays;
  * Matrix.
  *
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class Matrix {
 

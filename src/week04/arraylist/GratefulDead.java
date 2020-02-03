@@ -8,7 +8,7 @@ import java.util.List;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class GratefulDead {
     /**
@@ -17,7 +17,7 @@ public class GratefulDead {
      * @param args Unused
      */
     public static void main(String[] args) {
-        List<String> band = new ArrayList<String>();
+        final List<String> band = new ArrayList<String>();
 
         band.add("Jerry Garcia");
         band.add("Bob Weir");

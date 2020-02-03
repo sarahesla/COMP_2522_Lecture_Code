@@ -12,7 +12,7 @@ package week04.enums;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public enum Season {
 

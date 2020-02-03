@@ -8,18 +8,17 @@ import java.util.LinkedList;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class UsingToArray {
 
     /**
      * Constructs an object of type UsingToArray.
      */
-    public UsingToArray()
-    {
+    public UsingToArray() {
         String colors[] = {"black", "blue", "yellow"};
 
-        LinkedList<String> links = new LinkedList<String>(Arrays.asList(colors));
+        final LinkedList<String> links = new LinkedList<String>(Arrays.asList(colors));
         links.addLast("red"); // add as last item
         links.add("pink"); // add to the end
         links.add(3, "green"); // add at 3rd index

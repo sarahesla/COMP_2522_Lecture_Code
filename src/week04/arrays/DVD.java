@@ -7,7 +7,7 @@ import java.text.NumberFormat;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class DVD {
 
@@ -44,13 +44,10 @@ public class DVD {
      * @return toString description
      */
     public String toString() {
-        NumberFormat fmt = NumberFormat.getCurrencyInstance();
-
+        final NumberFormat fmt = NumberFormat.getCurrencyInstance();
         String description;
-
         description = fmt.format(cost) + "\t" + year + "\t";
         description += title + "\t" + director;
-
         if (bluRay) {
             description += "\t" + "Blu-Ray";
         }

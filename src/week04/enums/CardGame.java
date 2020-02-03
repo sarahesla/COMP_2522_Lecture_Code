@@ -6,7 +6,7 @@ import java.util.Random;
  * CardGame demonstrates the use of enumerations.
  *
  * @author BCIT
- * @version 2019
+ * @version 2020
  */
 public class CardGame {
 
