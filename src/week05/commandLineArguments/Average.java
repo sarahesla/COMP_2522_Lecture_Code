@@ -19,6 +19,10 @@ public class Average {
             System.out.println("No arguments");
             return;
         }
+
+        System.out.println(args[0]);
+
+
         int numberOfCommandLineArguments = args.length;
         int sum = 0;
         int count = 0;

@@ -15,12 +15,15 @@ public class VariableParameters {
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(String... args) { // WOW SARAH YOU BLEW MY MIND TODAY!
         Family lewis = new Family("John", "Sharon", "Justin",
                 "Kayla", "Nathan", "Samantha");
 
         Family camden = new Family("Stephen", "Annie", "Matt",
                 "Mary", "Simon", "Lucy", "Ruthie", "Sam", "David");
+
+        Family smith = new Family("Kayden");
+
 
         System.out.println(lewis);
         System.out.println();
