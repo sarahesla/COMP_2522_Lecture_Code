@@ -3,7 +3,7 @@ package week06.mockingRandomsExample;
 import java.util.Random;
 
 /**
- * Demonstrates two simple techniques for mocking random numbers.
+ * Demonstrates a simple technique for mocking random numbers.
  *
  * @author BCIT
  * @version 2020
