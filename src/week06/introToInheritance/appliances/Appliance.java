@@ -32,8 +32,11 @@ public class Appliance {
      * @param widthCentimetres
      * @param depthCentimetres
      */
-    public Appliance(String manufacturer, String serialNumber, double heightCentimetres, double widthCentimetres,
-            double depthCentimetres) {
+    public Appliance(String manufacturer,
+                     String serialNumber,
+                     double heightCentimetres,
+                     double widthCentimetres,
+                     double depthCentimetres) {
         setManufacturer(manufacturer);
         setSerialNumber(serialNumber);
         setHeightCentimetres(heightCentimetres);

@@ -32,8 +32,13 @@ public class Refrigerator extends Appliance {
      * @param minimumTemperatureCelsius
      * @param freezerLocation
      */
-    public Refrigerator(String manufacturer, String serialNumber, double heightCentimetres, double widthCentimetres,
-            double depthCentimetres, double minimumTemperatureCelsius, FreezerLocation freezerLocation) {
+    public Refrigerator(String manufacturer,
+                        String serialNumber,
+                        double heightCentimetres,
+                        double widthCentimetres,
+                        double depthCentimetres,
+                        double minimumTemperatureCelsius,
+                        FreezerLocation freezerLocation) {
         super(manufacturer, serialNumber, heightCentimetres, widthCentimetres, depthCentimetres);
         setMinimumTemperatureCelsius(minimumTemperatureCelsius);
         setFreezerLocation(freezerLocation);

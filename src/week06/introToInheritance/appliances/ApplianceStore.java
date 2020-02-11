@@ -17,22 +17,25 @@ public class ApplianceStore {
      */
     public static void main(String[] args) {
 
-        ArrayList<Appliance> listOfAppliances = new ArrayList<Appliance>();
+//        ArrayList<Appliance> listOfAppliances = new ArrayList<Appliance>();
+//
+//        for (int i = 0; i < 2; ++i) {
+//            listOfAppliances.add(new Appliance("", "", 0, 0, 0));
+//            listOfAppliances.add(new Oven("", "", 0, 0, 0, 0, 0));
+//            listOfAppliances.add(new Refrigerator("", "", 0, 0, 0, 0, FreezerLocation.TOP));
+//        }
+//
+//        for (Appliance appliance : listOfAppliances) {
+//            System.out.println(appliance);
+//        }
+//
+//        Iterator<Appliance> applianceIterator = listOfAppliances.iterator();
+//        while (applianceIterator.hasNext()) {
+//            System.out.println(applianceIterator.next());
+//        }
 
-        for (int i = 0; i < 2; ++i) {
-            listOfAppliances.add(new Appliance("", "", 0, 0, 0));
-            listOfAppliances.add(new Oven("", "", 0, 0, 0, 0, 0));
-            listOfAppliances.add(new Refrigerator("", "", 0, 0, 0, 0, FreezerLocation.TOP));
-        }
-
-        for (Appliance appliance : listOfAppliances) {
-            System.out.println(appliance);
-        }
-
-        Iterator<Appliance> applianceIterator = listOfAppliances.iterator();
-        while (applianceIterator.hasNext()) {
-            System.out.println(applianceIterator.next());
-        }
+        Oven amysOven = new Oven();
+        System.out.println(amysOven.getManufacturer());
 
     }
 

@@ -36,8 +36,13 @@ public class Oven extends Appliance {
      * @param numberOfElements
      * @param maxTemperatureCelsius
      */
-    public Oven(String manufacturer, String serialNumber, double heightCentimetres, double widthCentimetres,
-            double depthCentimetres, int numberOfElements, double maxTemperatureCelsius) {
+    public Oven(String manufacturer,
+                String serialNumber,
+                double heightCentimetres,
+                double widthCentimetres,
+                double depthCentimetres,
+                int numberOfElements,
+                double maxTemperatureCelsius) {
         super(manufacturer, serialNumber, heightCentimetres, widthCentimetres, depthCentimetres);
         setNumberOfElements(numberOfElements);
         setMaxTemperatureCelsius(maxTemperatureCelsius);
