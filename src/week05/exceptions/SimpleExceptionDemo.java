@@ -30,7 +30,7 @@ class ExceptDemo {
  * @author BCIT
  * @version 2020
  */
-public class ChildExceptionDemo extends ExceptDemo {
+public class SimpleExceptionDemo extends ExceptDemo {
 
     /**
      * Throws an Exception.
@@ -46,7 +46,7 @@ public class ChildExceptionDemo extends ExceptDemo {
      * @param args unused
      */
     public static void main(String[] args) {
-        ChildExceptionDemo sed = new ChildExceptionDemo();
+        SimpleExceptionDemo sed = new SimpleExceptionDemo();
         try {
             sed.f();
         } catch (Exception e) {
