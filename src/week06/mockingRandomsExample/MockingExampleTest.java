@@ -19,9 +19,6 @@ import static org.mockito.Mockito.*;
  */
 public class MockingExampleTest {
 
-    @Rule
-    public MockitoRule rule = MockitoJUnit.rule();
-
     @Mock
     private Random fakeRandom = mock(Random.class);
 
