@@ -42,18 +42,4 @@ public class Beetle extends Insect {
 
     private static int x2 = prt("static Beetle.x2 initialized");
 
-    /**
-     * Drives the program.  What happens?
-     * <p>
-     * What if we put this main method in a separate file? (Try it!)
-     * <p>
-     * What if we declare a variable of type Beetle without
-     * actually initializing a Beetle object?
-     *
-     * @param args
-     */
-    public static void main(String[] args) {
-        System.out.println("Started program");
-        Beetle b = new Beetle();
-    }
 }
