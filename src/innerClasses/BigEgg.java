@@ -3,7 +3,7 @@ package innerClasses;
 public class BigEgg {
 
     public static void main(String[] args) {
-        new Egg();
+        new BadEgg();
     }
 }
 
