@@ -13,7 +13,7 @@ public class Driver {
 
     /**
      * Returns the sum of the two largest integers in the
-     * specified code.arrays of positive integers.
+     * specified array of integers.
      *
      * @param array of ints
      * @return sum

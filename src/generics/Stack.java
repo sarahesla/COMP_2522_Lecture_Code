@@ -1,7 +1,7 @@
 package generics;
 
 /**
- * A simple Stack parameterized over T.
+ * A simple Stack parameterized over E.
  *
  * @param <E> the data type
  * @author BCIT
