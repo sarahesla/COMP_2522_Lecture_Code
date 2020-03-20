@@ -5,6 +5,7 @@ interface Counter {
 }
 
 public class LocalInnerClass {
+
     private int count = 0;
 
     public static void main(String[] args) {

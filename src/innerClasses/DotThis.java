@@ -1,6 +1,7 @@
 package innerClasses;
 
 public class DotThis {
+
     public static void main(String[] args) {
         DotThis dt = new DotThis();
         Inner dti = dt.inner();

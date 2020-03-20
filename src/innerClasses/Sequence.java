@@ -1,4 +1,4 @@
-package ca.bcit.comp2522.code.innerClasses;
+package innerClasses;
 
 interface Selector {
     boolean end();

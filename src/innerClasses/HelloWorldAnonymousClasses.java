@@ -50,6 +50,7 @@ public class HelloWorldAnonymousClasses {
                 System.out.println("Hola, " + name);
             }
         };
+
         englishGreeting.greet();
         frenchGreeting.greetSomeone("Fred");
         spanishGreeting.greet();
