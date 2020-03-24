@@ -1,4 +1,4 @@
-package inheritance.mockingRandomsExample;
+package unitTesting.mockingRandomsExample;
 
 import java.util.Random;
 

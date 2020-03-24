@@ -1,4 +1,4 @@
-package inheritance.mockingRandomsExample;
+package unitTesting.mockingRandomsExample;
 
 import org.junit.Test;
 import org.mockito.Mock;
